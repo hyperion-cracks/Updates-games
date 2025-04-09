@@ -1,46 +1,52 @@
 {
     "name": "Hyperion",
     "downloads": [
-      {
-        "title": "R.E.P.O v0.1.2",
-        "uris": [
-          "https://qiwi.gg/file/dWLt7280-R",
-          "https://www.mediafire.com/file/rtj22z3qhwxeqfg/R.E.P.O._-__HYPERION_-_v0.1.2.rar/file"
-        ],
-        "uploadDate": "2025-02-01T10:50:00.000Z",
-        "fileSize": "358.00 MB"
-      },
-      {
-        "title": "Call of Duty: Modern Warfare 3 – v1.9.461",
-        "uris": [
-          "magnet:?xt=urn:btih:16781424696B405FC93941B1E95479AEE0C1DF19"
-        ],
-        "uploadDate": "2018-02-07T21:21:02.000Z",
-        "fileSize": "10.8 GB"
-      },
-      {
-        "title": "Murky Divers V1.0.0",
-        "uris": [
-          "https://archive.org/download/murky-divers-instalador-hyperion/Murky%20Divers%20Instalador%20-%20HYPERION.exe"
-        ],
-        "uploadDate": "2025-02-21T23:53:00.000Z",
-        "fileSize": "0.98 GB"
-      },
-      {
-        "title": "Embr [b7862699] (2021) PC | RePack от Pioneer",
-        "uris": [
-          "magnet:?xt=urn:btih:4a96e23299d1350a359d7de65557bcb98fe91765&dn=embr&tr=udp://opentor.net:6969&tr=http://retracker.local/announce"
-        ],
-        "uploadDate": "2022-07-23T00:00:00.000Z",
-        "fileSize": "1.60 GB"
-      },
-      {
-        "title": "Human Fall Flat",
-        "uris": [
-          "https://qiwi.gg/file/pJKc5584-HumanFallFlatInstalador-HYPERION"
-        ],
-        "uploadDate": "2025-03-17T16:44:17.000Z",
-        "fileSize": "1.67 GB"
-      }
+        {
+            "title": "R.E.P.O v0.1.2",
+            "uris": [
+                "https://qiwi.gg/file/dWLt7280-R",
+                "https://www.mediafire.com/file/rtj22z3qhwxeqfg/R.E.P.O._-__HYPERION_-_v0.1.2.rar/file"
+            ],
+            "uploadDate": "2025-02-01T10:50:00.000Z",
+            "fileSize": "358.00 MB"
+        },
+        {
+            "title": "Call of Duty: Modern Warfare 3 – v1.9.461",
+            "uris": [
+                "magnet:?xt=urn:btih:16781424696B405FC93941B1E95479AEE0C1DF19"
+            ],
+            "uploadDate": "2018-02-07T21:21:02.000Z",
+            "fileSize": "10.8 GB"
+        },
+        {
+            "title": "Murky Divers V1.0.0",
+            "uris": [
+                "https://archive.org/download/murky-divers-instalador-hyperion/Murky%20Divers%20Instalador%20-%20HYPERION.exe"
+            ],
+            "uploadDate": "2025-02-21T23:53:00.000Z",
+            "fileSize": "0.98 GB"
+        },
+        {
+            "title": "Embr [b7862699] (2021) PC | RePack от Pioneer",
+            "uris": [
+                "magnet:?xt=urn:btih:4a96e23299d1350a359d7de65557bcb98fe91765&dn=embr&tr=udp://opentor.net:6969&tr=http://retracker.local/announce"
+            ],
+            "uploadDate": "2022-07-23T00:00:00.000Z",
+            "fileSize": "1.60 GB"
+        },
+        {
+            "title": "Human Fall Flat",
+            "uris": [
+                "https://qiwi.gg/file/pJKc5584-HumanFallFlatInstalador-HYPERION"
+            ],
+            "uploadDate": "2025-03-17T16:44:17.000Z",
+            "fileSize": "1.67 GB"
+        },
+        {
+            "title": "Keep Talking and Nobody Explodes [L] [RUS + ENG + 24] (2015, Puzzle) Головоломка, VR Supported) (1.9.22) [Portable]",
+            "uris": [
+                "magnet:?xt=urn:btih:8301E96218D57B974BD9AA441DB6272E0464E35E&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet"
+            ]
+        }
     ]
 }
