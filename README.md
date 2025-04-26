@@ -27,7 +27,6 @@ Redistribuciones optimizadas de software gaming, centradas en:
 ## 📥 Enlaces
 ### Oficiales
 - [🟣 Archive.org Perfil Verificado](https://archive.org/details/@hyperion_repacks)
-- [🔵 Hydra Launcher Integration](null)
 
 ```fix
 Los repacks son proporcionados "tal cual" bajo riesgo del usuario.
