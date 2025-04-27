@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><title>Hyperion Repacks - Sitio Oficial</title></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma oficial de Hyperion Repacks - Juegos optimizados y listos para jugar con seguridad garantizada">
+  <meta name="keywords" content="juegos pc, repacks, hyperion, optimización, descargas">
+  <meta name="author" content="Hyperion Repacks Team">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hyperion-repacks.github.io/">
+  <meta property="og:title" content="Hyperion Repacks - Sitio Oficial">
+  <meta property="og:image" content="https://hyperion-repacks.github.io/images/isotipo%20naranja.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/isotipo%20naranja.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Notification Banner */
+    .notification-banner {
+      position: fixed;
+      bottom: -50px;  /* Changed from top */
+      left: 50%;
+      transform: translateX(-50%);
+      background: #ffc44d;
+      color: rgb(0, 0, 0);
+      padding: 12px 24px;
+      border-radius: 4px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+      opacity: 0;
+      transition: all 0.3s ease;
+      z-index: 1000;
+    }
+
+    .notification-banner.show {
+      opacity: 1;
+      bottom: 20px;  /* Changed from top */
+    }
+  </style>
+</head>
+<body>
+  <!-- Notification Banner -->
+  <div class="notification-banner" id="clipboardNotification">¡URL Copiado al portapapeles!</div>
+  
+  <!-- Fondo animado -->
+  <div id="particles-js"></div>
+  
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <div class="logo-image">
+          <!-- Espacio para el logo -->
+          <img src="images\isotipo naranja.png" alt="Hyperion Repacks Logo" id="brand-logo">
+        </div>
+        <div class="logo-text">
+          <h1>HYPERION REPACKS</h1>
+        </div>
+      </div>
+      <nav>
+        <a href="https://github.com/hyperion-repacks" class="github-link" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2 class="glowing-text">La Plataforma Oficial de Empaquetados de Juegos</h2>
+        <p>Juegos analizados, optimizados y listos para jugar</p>
+        <div class="hero-buttons">
+          <a href="#features" class="btn btn-primary">Descubrir</a>
+          <a href="#" class="btn btn-secondary" onclick="addHydraSource(event)">Añadir a Hydra Launcher</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-overlay"></div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">¿Por qué elegir Hyperion Repacks?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Seguridad Garantizada</h3>
+          <p>Analizamos todos los juegos publicados para evitar malware y garantizar tu seguridad.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-sync-alt"></i>
+          </div>
+          <h3>Actualizador Incluido</h3>
+          <p>Mantén tus juegos siempre actualizados con nuestro sistema de actualización integrado.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-download"></i>
+          </div>
+          <h3>Fácil Instalación</h3>
+          <p>Proceso de descarga e instalación simplificado para que comiences a jugar rápidamente.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-plug"></i>
+          </div>
+          <h3>Compatible con Hydra</h3>
+          <p>Integración perfecta con Hydra Launcher para una experiencia de juego mejorada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2 class="glowing-text">Comienza a jugar hoy mismo</h2>
+      <p>Únete a nuestra comunidad y disfruta de los mejores juegos optimizados</p>
+      <a href="#" class="btn btn-large btn-glow" onclick="addHydraSource(event)">Importar a Hydra Launcher</a>
+    </div>
+    <div class="cta-overlay"></div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>2025 Hyperion Repacks.</p>
+      <div class="social-links">
+        <a href="https://github.com/hyperion-repacks" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+  function addHydraSource(event) {
+    event.preventDefault();
+    const url = 'hydralauncher://install-source?urls=https://hyperion-repacks.github.io/hydra.json';
+    const jsonUrl = 'https://hyperion-repacks.github.io/hydra.json';
+    const notification = document.getElementById('clipboardNotification');
+
+    navigator.clipboard.writeText(jsonUrl)
+      .then(() => {
+        // Show notification
+        notification.classList.add('show');
+        setTimeout(() => notification.classList.remove('show'), 3000);
+      })
+      .catch(err => {
+        console.error('Error de acceso:', err);
+        prompt('Por favor copia este URL manualmente:', jsonUrl);
+      });
+
+    window.open(url, '_blank');
+    setTimeout(() => window.open(url, '_blank'), 1000);
+  }
+  </script>
+  </body>
+</html>
