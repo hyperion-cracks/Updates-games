@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperion Repacks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hyperion Repacks</h1>
+        <p>El sitio oficial del reempaker. Convierte tus videojuegos en instaladores sencillos, fáciles y rápidos de instalar para disfrutar de tus juegos favoritos.</p>
+        <p>Compatible con Hydra Launcher.</p>
+        <button id="addButton">Añadir Hyperion a Hydra Launcher</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
